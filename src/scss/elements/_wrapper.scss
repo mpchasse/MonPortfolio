@@ -1,0 +1,28 @@
+// STYLE DE BASE DU WRAPPER
+
+.wrapper {
+  max-width: $max-width;
+  margin: 0 auto;
+
+  position: relative;
+  bottom: -50px;
+}
+
+
+// Utilisation du css Layout Grid pour faire le wrapper
+//.grid-wrapper{
+//  display: grid;
+//  grid-template-columns: auto minmax($min-width, $max-width) auto;
+//  grid-column-gap: 30px;
+//}
+//
+//.grid-center{
+//  grid-column: 2/3;
+//}
+
+@media screen and (max-width: 375px) {
+
+
+
+
+}
