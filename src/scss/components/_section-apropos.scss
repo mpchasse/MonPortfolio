@@ -34,17 +34,32 @@
   .image-article {
     position: relative;
 
-    .equerrebleu {
+
+    img.equerrebleue {
+
       position: absolute;
       bottom: 75px;
       left: 75px;
 
+      width: 319px;
+      height: 316px;
+      transform: rotate(-90deg);
+
+      z-index: -1;
+
     }
 
-    .equerrejaune {
+    img.equerrejaune {
       position: absolute;
       top: 125px;
       right: 75px;
+
+      width: 319px;
+      height: 316px;
+      transform: rotate(-90deg);
+      z-index: -1;
+
+      bottom: 0;
 
     }
 

@@ -5,20 +5,15 @@
 
 <!--------------------------------------HEADER------------------------------------------------------------------------->
 <?php get_header(); ?>
-
+<!--------------------------------------WRAPPER------------------------------------------------------------------------->
 
 <div class="wrapper">
 
-    <div class="hero1">
-        <div>
-            <div class="image-hero">
-                <h2><span>Marie-Pier Chassé</span></h2>
-            </div>
-            <div class="texte-hero">
-                <h1>Je veux créer !</h1>
-                <hr>
-            </div>
-        </div>
+    <!--------------------------------------HERO------------------------------------------------------------------------->
+
+    <div class="hero">
+
+        <img class="logotitre" src="<?php echo bloginfo('template_url'); ?>/images/logotitre.png"/>
     </div>
 
     <!--------------------------------------SECTION------------------------------------------------------------------------->
@@ -33,7 +28,7 @@
 
                 <h3>Le feStylo</h3>
                 <div class="sous-titre">
-                    <div class="carredeco"></div>
+<!--                    <div class="carredeco"></div>-->
                     <h4>Site web évènementiel fictif</h4>
                 </div>
                 <div class="article-wrapper">
@@ -55,7 +50,9 @@
                             <img src="<?php echo bloginfo('template_url'); ?>/images/php.png"/>
 
                         </div>
-
+                        <div class="centrer">
+                            <button><a href="https://www.behance.net/gallery/107485415/Le-feStylo-Site-web-venementiel-fictif">En savoir plus</a></button>
+                        </div>
 
                     </div>
 
@@ -63,10 +60,11 @@
                         <img src="<?php echo bloginfo('template_url'); ?>/images/festylo.png" alt="Le feStylo">
                     </div>
 
+
                 </div>
-                <div class="centrer">
-                    <button><a href="https://www.behance.net/gallery/107485415/Le-feStylo-Site-web-venementiel-fictif">En savoir plus</a></button>
-                </div>
+<!--                <div class="centrer">-->
+<!--                    <button><a href="https://www.behance.net/gallery/107485415/Le-feStylo-Site-web-venementiel-fictif">En savoir plus</a></button>-->
+<!--                </div>-->
             </div>
 
 

@@ -21,6 +21,8 @@
 
       h4 {
         margin: 0;
+        text-align: end;
+        width: 100%;
       }
 
       .sous-titre {
@@ -68,8 +70,8 @@
   }
 
   img.equerrebleue {
-    width: 319px;
-    height: 316px;
+    width: 159px;
+    height: 158px;
     transform: rotate(-90deg);
 
     z-index: -1;
@@ -77,8 +79,8 @@
   }
 
   img.equerrejaune {
-    width: 319px;
-    height: 316px;
+    width: 159px;
+    height: 158px;
     transform: rotate(-90deg);
     z-index: -1;
 

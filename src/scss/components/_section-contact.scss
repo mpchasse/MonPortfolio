@@ -30,23 +30,37 @@
 
       margin-bottom: 50px;
 
-      height: 110px;
       width: 50%;
 
+      #field_1_2, #field_1_3, #field_1_5, #field_1_6 {
+        height: 110px;
+      }
+
+      #field_1_8 {
+        height: 100%;
+
+      }
 
       #input_1_5, #input_1_6, #input_1_3, #input_1_2, #input_1_4, #input_1_8 {
         border: 5px $noir solid;
-        height: 60px;
-        width: 100%;
 
+        width: 100%;
         background-color: $jaune;
       }
 
+      #input_1_5, #input_1_6, #input_1_3, #input_1_2, #input_1_4 {
+        height: 60px;
+      }
+
+      #input_1_8 {
+        height: 100%;
+      }
     }
 
 
     #field_1_4 {
       width: 100%;
+      margin-bottom: 50px;
 
       #input_1_4 {
         border: 5px $noir solid;
@@ -148,6 +162,7 @@
     .reseaux-sociaux {
       margin: 25px auto
     }
+
     h3 {
       font-size: $fz-mobileh3;
     }
@@ -255,16 +270,17 @@
       width: 150px;
     }
 
-    button::before{
+    button::before {
       right: 0;
       top: -65%;
     }
 
-    button::after{
+    button::after {
       bottom: -40%;
       right: -80%;
     }
-    button:hover::after{
+
+    button:hover::after {
       bottom: -120%;
       right: -45%;
     }
