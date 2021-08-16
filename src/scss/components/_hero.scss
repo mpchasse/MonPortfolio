@@ -1,11 +1,15 @@
-.hero1 {
-  margin-top: 20px;
+.hero {
+  //margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    width: 55%;
+    margin: 0 auto;
+  }
 
   div {
     text-align: center;
-    //display: flex;
-    //flex-direction: column;
-    //align-items: center;
 
 
     h2 {
@@ -122,8 +126,8 @@
 
 @media screen and (max-width: 375px) {
 
-  .wrapper{
-    bottom:0;
+  .wrapper {
+    bottom: 0;
   }
   .hero1 {
     margin-top: 40px;
@@ -229,22 +233,24 @@
       top: -25px;
       //z-index: -1;
 
-      img{
-        width:25%;
+      img {
+        width: 25%;
       }
     }
 
     .texte-hero {
       margin-top: 0px;
-      h1{
+
+      h1 {
         font-size: $fz-mobileh1;
       }
 
-      .hero{
+      .hero {
         font-size: $fz-mobilep;
       }
-      .upper{
-//font-size: $fz-mobileh1;
+
+      .upper {
+        //font-size: $fz-mobileh1;
       }
     }
 

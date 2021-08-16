@@ -1,5 +1,4 @@
-</div>
-</div>
+
 <!-- Footer Début -->
 
 <footer>

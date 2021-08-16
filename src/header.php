@@ -48,27 +48,28 @@
     </div>
 
     <nav>
-<!--------------------------------------MENU hamburger------------------------------------------------------------------------->
+        <!--------------------------------------MENU hamburger------------------------------------------------------------------------->
         <span class='menuhamburger'>
         <label for="show-menu" class="show-menu">
-            <img class="iconemenu" src="<?php echo bloginfo('template_url'); ?>/images/menu.png"                                                                                                                                                          alt="menu"></label></div>
-                <input type="checkbox" id="show-menu" class="toggle-menu">
+            <img class="iconemenu" src="<?php echo bloginfo('template_url'); ?>/images/menu.png"
+                 alt="menu"></label></div>
+            <input type="checkbox" id="show-menu" class="toggle-menu">
         </span>
 
 
-<div class='navbar'>
-        <!--------------------------------------MENU------------------------------------------------------------------------->
-        <?php wp_nav_menu(array(
-                'theme_location' => 'menu_principal')
-        ); ?>
-        <!--        <ul>-->
-        <!--            <li class=""><a href="index.html">Accueil</a></li>-->
-        <!--            <li class=""><a href="template-projets.html">Projets</a></li>-->
-        <!--            <li class=""><a href="template-apropos.html">À propos</a></li>-->
-        <!--            <li class=""><a href="template-contact.html">Contact</a></li>-->
-        <!--        </ul>-->
+        <div class='navbar'>
+            <!--------------------------------------MENU------------------------------------------------------------------------->
+            <?php wp_nav_menu(array(
+                    'theme_location' => 'menu_principal')
+            ); ?>
+            <!--        <ul>-->
+            <!--            <li class=""><a href="index.html">Accueil</a></li>-->
+            <!--            <li class=""><a href="template-projets.html">Projets</a></li>-->
+            <!--            <li class=""><a href="template-apropos.html">À propos</a></li>-->
+            <!--            <li class=""><a href="template-contact.html">Contact</a></li>-->
+            <!--        </ul>-->
 
-</div>
+        </div>
 
     </nav>
 
@@ -77,15 +78,9 @@
         <img src="<?php the_field('mpc_logotype', 'option'); ?>" alt="Logotype MPC"/>
 
 
-
     </div>
 
 
 </header>
 
 <!-- Header Fin -->
-
-<div class="wrapper">
-
-    <div class="hero">
-        <img class="logotitre" src="<?php echo bloginfo('template_url'); ?>/images/logotitre.png"/>

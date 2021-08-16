@@ -98,19 +98,21 @@ header {
       flex-direction: row;
       justify-content: space-between;
 
-      margin: 0 auto;
+      margin: auto;
       padding: 20px;
       width: 60%;
-
+      height: 150px;
       position: relative;
 
 
       li {
-        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
         list-style: none;
         font-family: $ff-title;
-        font-size: $fz-nav;
+        //font-size: $fz-nav;
 
 
       }

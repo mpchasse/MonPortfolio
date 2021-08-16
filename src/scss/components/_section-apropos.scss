@@ -6,13 +6,13 @@
 
   .icones-articles {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-top: 20px;
 
     img {
-      width: 7%;
-
+      width: 4%;
+      margin: 0 20px;
       opacity: 100%;
     }
   }
@@ -109,7 +109,7 @@
 
 .section-apropos {
   article:first-child {
-    .body-article{
+    .body-article {
       .info-article {
         width: 65%;
       }
